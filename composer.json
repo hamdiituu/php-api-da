@@ -1,0 +1,12 @@
+{
+  "autoload": {
+    "psr-4": {
+      "Core\\": "src/core/",
+      "Http\\": "src/http/",
+      "Data\\": "src/data/"
+    }
+  },
+  "scripts": {
+    "start": "php server.php"
+  }
+}
